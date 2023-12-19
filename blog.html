@@ -1,0 +1,494 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completed - NewsFlash | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   
+
+     
+
+    <nav id="header">
+        <a href="./index.html" class="avatar">
+            <img src="./assets/images/avatar.png" alt="Your Name" class="header-image">
+        </a>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list ">
+                    <i class="fas fa fa-home"></i> 
+                    <a href="./index.html" class="nav-link ">Pocetna stranica</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list ">
+                    <i class="fas fa fa-user"></i> 
+                    <a href="./index.html#about" class="nav-link">O meni</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list ">
+                    <i class="fas fa fa-briefcase"></i> 
+                    <a href="./blog.html" class="nav-link">Blog</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <i class="fas fa fa-blog"></i> 
+                    <a href="./education.html" class="nav-link">Edukacija i projekti</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <i class="fas fa fa-envelope"></i> 
+                    <a href="./contact.html" class="nav-link">Kontakt</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search" disabled>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-1.jpg" alt="" class="article-image">
+                    <span class="article-category">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 5th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Is VR the future?</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/featured-2.jpg" alt="" class="article-image">
+                    <span class="article-category">Food</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 6th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Fine dining 101</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-3">
+                    <img src="./assets/images/featured/featured-3.jpg" alt="" class="article-image">
+                    <span class="article-category">Health</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 5th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Natural fat burner</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending news</h3>
+
+                <a href="./post.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/trending/trending_1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/trending/trending_2.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/trending/trending_3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/trending/trending_4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/trending/trending_5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_2.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_6.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="gallery-1" class="gallery">
+        <h2>Galerija 1</h2>
+        <div class="gallery-grid">
+            <!-- Fotografije i video zapisi -->
+            <!-- Primjer fotografije -->
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            
+            <!-- Primjer videa -->
+            <figure>
+                <video controls>
+                    <source src="path-to-video.mp4" type="video/mp4">
+                    Vaš pregledač ne podržava video tag.
+                </video>
+                <figcaption>Kratki opis videa.</figcaption>
+            </figure>
+            <!-- Dodajte ostale fotografije i video zapise -->
+        </div>
+        <div class="gallery-grid">
+            <!-- Fotografije i video zapisi -->
+            <!-- Primjer fotografije -->
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            <!-- Dodajte ostale fotografije i video zapise -->
+        </div>
+    </section>
+
+    <section id="gallery-2" class="gallery">
+        <h2>Galerija 2</h2>
+        <div class="gallery-flex">
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+              <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+             <figure>
+                <img src="./assets/images/featured/featured-1.jpg" alt="Opis fotografije">
+                <figcaption>Kratki opis fotografije.</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <footer>
+        <div class="top-footer">
+            <p>John Doe .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="./index.html">Pocetna</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./education.html">Edukacija i projekti</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./contact.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+             <a href="#" class="icon"><i class="uil uil-instagram"></i></a>
+           <a href="#" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+           <a href="#" class="icon"><i class="uil uil-dribbble"></i></a>
+         <a href="#" class="icon"><i class="uil uil-github-alt"></i></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">John Doe</a> - All rights reserved</p>
+        </div>
+    </footer>
+    
+    
+    
+    <!-- Custom script -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

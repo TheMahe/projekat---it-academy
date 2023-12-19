@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- --------------- FAVICON --------------- -->
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    
+    <title>Portfolio | Ludiflex</title>
+</head>
+
+<body >
+    <nav id="header">
+        <a href="./index.html" class="avatar">
+            <img src="./assets/images/avatar.png" alt="Your Name" class="header-image">
+        </a>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list ">
+                    <i class="fas fa fa-home"></i> 
+                    <a href="./index.html" class="nav-link ">Pocetna stranica</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list ">
+                    <i class="fas fa fa-user"></i> 
+                    <a href="./index.html#about" class="nav-link">O meni</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list ">
+                    <i class="fas fa fa-briefcase"></i> 
+                    <a href="./blog.html" class="nav-link">Blog</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <i class="fas fa fa-blog"></i> 
+                    <a href="./education.html" class="nav-link">Edukacija i projekti</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <i class="fas fa fa-envelope"></i> 
+                    <a href="./contact.html" class="nav-link">Kontakt</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search" disabled>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+    <section id="education-skills">
+        <h2>Obrazovanje i Vještine</h2>
+        <h3>Formalno Obrazovanje</h3>
+        <table>
+            <tr>
+                <th>Godina</th>
+                <th>Ustanova</th>
+                <th>Stepen</th>
+                <th>Grad</th>
+            </tr>
+            <tr>
+                <td>2010-2014</td>
+                <td>Univerzitet XYZ</td>
+                <td>Bachelor</td>
+                <td>Grad XYZ</td>
+            </tr>
+        </table>
+        <div class="skills">
+            <h3>Vještine</h3>
+            <ul>
+                <li class="skill" >Web Development</li>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis fuga cupiditate animi accusantium quas dolorum tempora quam dicta deserunt et nulla odio fugiat enim error optio eaque atque quibusdam, vitae doloremque velit obcaecati explicabo sit. Rem, cupiditate. Exercitationem, deleniti ipsum.</p>
+
+                <li class="skill">JavaScript</li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae delectus laboriosam sed nam consequuntur. Eveniet dolor sint, molestiae ab incidunt earum minus accusamus et expedita quas repellat sequi nihil possimus voluptates reprehenderit sapiente dolorum. Id sint libero aut maiores dolores?</p>
+            </ul>
+        </div>
+     
+    </section>
+    
+    <section id="projects">
+        <h2>Moji Projekti</h2>
+        <div class="project-row">
+        <div class="project">
+            <img src="./assets/images/projekat.jpg" alt="Projekt 1">
+            <h3>Naziv Projekta 1</h3>
+            <p>Detalji projekta...</p>
+            <a href="#">Link</a>
+        </div>
+        <div class="project">
+            <img src="./assets//images/projekat.jpg" alt="Projekt 2">
+            <h3>Naziv Projekta 2</h3>
+            <p>Detalji projekta...</p>
+            <a href="#">Link</a>
+
+        </div>
+    </div>
+        <!-- Dodajte više projekata ako je potrebno -->
+    </section>
+    
+    <footer>
+        <div class="top-footer">
+            <p>John Doe .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="./index.html">Pocetna</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./education.html">Edukacija i projekti</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./contact.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+             <a href="#" class="icon"><i class="uil uil-instagram"></i></a>
+           <a href="#" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+           <a href="#" class="icon"><i class="uil uil-dribbble"></i></a>
+         <a href="#" class="icon"><i class="uil uil-github-alt"></i></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">John Doe</a> - All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+<script src="./js/main.js"></script>
+
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.icos">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- --------------- FAVICON --------------- -->
+    
+    <title>Portfolio | Ludiflex</title>
+</head>
+<body >
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <a href="#home" class="avatar">
+            <img src="./assets/images/avatar.png" alt="Your Name" class="header-image">
+        </a>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list ">
+                    <i class="fas fa fa-home"></i> 
+                    <a href="./index.html" class="nav-link ">Pocetna stranica</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list ">
+                    <i class="fas fa fa-user"></i> 
+                    <a href="./index.html#about" class="nav-link">O meni</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list ">
+                    <i class="fas fa fa-briefcase"></i> 
+                    <a href="./blog.html" class="nav-link">Blog</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <i class="fas fa fa-blog"></i> 
+                    <a href="./education.html" class="nav-link">Edukacija i projekti</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <i class="fas fa fa-envelope"></i> 
+                    <a href="./contact.html" class="nav-link">Kontakt</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search" disabled>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>John Doe</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Experienced frontend developer with a passion for creating visually stunning
+                   and user-friendly websites.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="./assets/pdf/your-cv.pdf" class="btn" download="YourName_CV.pdf">Download CV <i class="uil uil-file-alt"></i></a>
+            </div>
+            <div class="social_icons">
+                <a href="#" class="icon"><i class="uil uil-instagram"></i></a>
+           <a href="#" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+           <a href="#" class="icon"><i class="uil uil-dribbble"></i></a>
+         <a href="#" class="icon"><i class="uil uil-github-alt"></i></a>
+            </div>
+          </div>
+         
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row row1">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deserunt quam atque quod asperiores expedita in ab libero similique maiores facilis rem ratione molestias provident amet, possimus architecto eveniet repellendus reprehenderit tempore, nam reiciendis natus nobis! Quae, mollitia corporis. Suscipit aut beatae voluptates ea maiores qui neque tenetur harum vel sunt totam libero, quisquam dolor deleniti ipsum error cupiditate 
+                    </p>
+
+                    <span>email: ime_prezime@domenasajta.com</span>
+                    <span>Broj telefona: 063 111 111</span>
+                    
+                    <div class="about-btn">
+                        <a href="./assets/pdf/your-cv.pdf" class="btn" download="YourName_CV.pdf">Download CV <i class="uil uil-import"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="assets/images/avatar.png" alt="avatar">
+                </div>
+              </div>
+           
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>Vue</span>
+                            <span>React</span>
+                            <span>Angular</span>
+                        </div>
+                    </div>
+                   
+                 
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Design</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Photoshop</span>
+                        <span>Figma</span>
+                        <span>Blender</span>
+                        <span>Canva</span>
+                    
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Completed</h3>
+                <label>15+ Finished Projects</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Clients</h3>
+                <label>25+ Happy Clients</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Experience</h3>
+                <label>7+ Years in the field</label>
+            </div>
+          </div>
+       </section>
+
+       <section id="graduation-project">
+        <div class="container">
+            <h2>Maturski Rad / Fakultetski Projekat</h2>
+            <h3>Naslov Projekta</h3>
+            <p>Kratki opis projekta: Ovde možete ukratko opisati vaš maturski rad ili projekt na fakultetu, šta ste istraživali, koje tehnologije ste koristili, i koje ste rezultate postigli.</p>
+            <div class="project-details">
+                <h4>Detalji Projekta</h4>
+                <ul>
+                    <li>Tema: Relevantna tema maturskog rada ili projekta</li>
+                    <li>Mentor: Ime Prezime Mentora/ice</li>
+                    <li>Ustanova: Naziv Škole/Fakulteta</li>
+                    <li>Lokacija: Adresa ustanove</li>
+                    <li>Web stranica: <a href="link-do-web-stranice-ustanove" target="_blank">Posetite web stranicu</a></li>
+                </ul>
+            </div>
+        </div>
+        <button class="center-btn btn">
+        <a  href="./education.html">Vidi edukacija i projekti</a></button>
+    </section>
+    
+
+       
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>John Doe .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="./index.html">Pocetna</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./education.html">Edukacija i projekti</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./contact.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+             <a href="#" class="icon"><i class="uil uil-instagram"></i></a>
+           <a href="#" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+           <a href="#" class="icon"><i class="uil uil-dribbble"></i></a>
+         <a href="#" class="icon"><i class="uil uil-github-alt"></i></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">John Doe</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+    integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

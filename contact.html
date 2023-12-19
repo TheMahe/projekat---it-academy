@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Forms</title>
+  </head>
+  <body >
+    <nav id="header">
+        <a href="./index.html" class="avatar">
+            <img src="./assets/images/avatar.png" alt="Your Name" class="header-image">
+        </a>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list ">
+                    <i class="fas fa fa-home"></i> 
+                    <a href="./index.html" class="nav-link ">Pocetna stranica</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list ">
+                    <i class="fas fa fa-user"></i> 
+                    <a href="./index.html#about" class="nav-link">O meni</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list ">
+                    <i class="fas fa fa-briefcase"></i> 
+                    <a href="./blog.html" class="nav-link">Blog</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <i class="fas fa fa-blog"></i> 
+                    <a href="./education.html" class="nav-link">Edukacija i projekti</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <i class="fas fa fa-envelope"></i> 
+                    <a href="./contact.html" class="nav-link">Kontakt</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search" disabled>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+      <section class="section" id="contact">
+        <div class="top-header">
+          <h1>Get in touch</h1>
+          <span>Do you have a project in your mind, contact me here</span>
+        </div>
+        <div class="row">
+           <div class="col">
+              <div class="contact-info">
+                  <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                  <p><i class="uil uil-envelope"></i> Email: john@doe.com</p>
+                  <p><i class="uil uil-phone"></i> Tel: +250 708 770 000</p>
+              </div>
+           </div>
+           <div class="col">
+              <div class="form-control">
+                  <div class="form-inputs">
+                      <input type="text" class="input-field" placeholder="Name">
+                      <input type="text" class="input-field" placeholder="Email">
+                  </div>
+                  <div class="text-area">
+                      <textarea placeholder="Message"></textarea>
+                  </div>
+                  <div class="form-button">
+                      <button class="btn">Send <i class="uil uil-message"></i></button>
+                  </div>
+              </div>
+           </div>
+        </div>
+     </section>
+
+    
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/advance_animations.js"></script>
+    <script src="./js/main.js"></script>
+
+  </body>
+</html>
